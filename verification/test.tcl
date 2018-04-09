@@ -50,21 +50,21 @@ $ns duplex-link-op $n3 $n1 orient right-up
 # setup simulation colors
 $ns color 1 Blue
 
-set udp0 [new Agent/UDP]
-$udp0 set packetSize_ 500
-$udp0 set class_ 1
-$ns attach-agent $n3 $udp0
+#set udp0 [new Agent/UDP]
+#$udp0 set packetSize_ 500
+#$udp0 set class_ 1
+#$ns attach-agent $n3 $udp0
 
 
 # Create a Poisson traffic source and attach it to udp0
-set Poi0 [new Application/Traffic/Poisson]
-$Poi0 set packetSize_ 1500
-$Poi0 set rate_ 0.1Mb
-$Poi0 attach-agent $udp0
+#set Poi0 [new Application/Traffic/Poisson]
+#$Poi0 set packetSize_ 1500
+#$Poi0 set rate_ 0.1Mb
+#$Poi0 attach-agent $udp0
 #Create a Null agent (a traffic sink) and attach it to node n3
-set null0 [new Agent/Null]
-$ns attach-agent $n2 $null0
-$ns connect $udp0 $null0
+#set null0 [new Agent/Null]
+#$ns attach-agent $n2 $null0
+#$ns connect $udp0 $null0
 
 
 # setup n0 to n3 connection
@@ -99,8 +99,8 @@ $em drop-target [new Agent/Null]
 #$ns link-lossmodel $em $n2 $n3
 
 
-$ns at 0.0 "$Poi0 start"
-$ns at 10 "$Poi0 stop"
+#$ns at 0.0 "$Poi0 start"
+#$ns at 10 "$Poi0 stop"
 $ns at 0.0 "$ftp0 start"
 $ns at 10 "$ftp0 stop"
 
