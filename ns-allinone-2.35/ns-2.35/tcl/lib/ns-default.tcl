@@ -492,10 +492,10 @@ Application/Traffic/CBR set packetSize_ 210
 Application/Traffic/CBR set random_ 0
 Application/Traffic/CBR set maxpkts_ 268435456; # 0x10000000
 
-Application/Traffic/Poisson set interval_ -1.0
-Application/Traffic/Poisson set rate_ 1Mb
-Application/Traffic/Poisson set packetSize_ 500
-Application/Traffic/Poisson set maxpkts_ 268435456
+#Application/Traffic/Poisson set interval_ -1.0
+#Application/Traffic/Poisson set rate_ 1Mb
+#Application/Traffic/Poisson set packetSize_ 500
+#Application/Traffic/Poisson set maxpkts_ 268435456
 
 Application/Telnet set interval_ 1.0
 

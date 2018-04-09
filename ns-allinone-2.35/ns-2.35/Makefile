@@ -349,7 +349,7 @@ OBJ_C = \
 	tcp/linux/src/tcp_cong.o\
 	tcp/linux/src/tcp_highspeed.o tcp/linux/src/tcp_bic.o tcp/linux/src/tcp_htcp.o tcp/linux/src/tcp_scalable.o tcp/linux/src/tcp_cubic.o\
 	tcp/linux/src/tcp_westwood.o tcp/linux/src/tcp_vegas.o tcp/linux/src/tcp_hybla.o\
-	tcp/linux/src/tcp_illinois.o tcp/linux/src/tcp_yeah.o tcp/linux/src/tcp_golf.o tcp/linux/src/tcp_golf2.o\
+	tcp/linux/src/tcp_illinois.o tcp/linux/src/tcp_yeah.o\
 	tcp/linux/src/tcp_veno.o tcp/linux/src/tcp_compound.o tcp/linux/src/tcp_lp.o\
 	tcp/linux/ns-linux-c.o tcp/linux/ns-linux-param.o
 
